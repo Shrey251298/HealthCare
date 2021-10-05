@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.product{
+    background: #fff;
+		font-family: 'Montserrat', sans-serif;
+                border-radius: 20px;
+}
+.card-product {
+    width: 248px;
+    height: 314px;
+    background: #f1f1f1;
+    border: 1px solid #6ab04c;
+  
+}
+	.top-section {
+    
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+}
+	#image-container {
+    width: 220px;
+    height: 190px;
+}
+	.nav-product{
+		text-align: center;
+	}
+	.nav-product img{
+		width: 80px;
+		height: 50px;
+		border: 1px solid #ddd;
+		margin: 8px 2px;
+		cursor: pointer;
+		transition: 0.3s;
+	}
+	.nav-product img:hover{
+		border-color: #6ab04c; 
+	}
+	.price{
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		color: #6ab04c;
+		font-size: 24px;
+	}
+	.product-info{
+		padding: 24px;
+	}
+	.name{
+		text-transform: uppercase;
+		font-size: 12px;
+		color: #333;
+	}
+	.dis{
+		font-size: 12px;
+		opacity: 0.7;
+	}
+	.btn-product {
+    display: block;
+    background: #6ab04c;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    margin-top: -11px;
+    transition: 0.3s;
+}
+	.btn-product:hover{
+		background: #333;
+                text-decoration: none;
+                color: #fff;
+	}
