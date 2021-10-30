@@ -44,6 +44,7 @@ String name,subject, email, msg;
         email=request.getParameter("mail");
         subject=request.getParameter("sub");
         msg=request.getParameter("mes");
+        a=request.getParameter("Name");
         
         final String username="abhipanat676@gmail.com";
         final String password="abhi5panat";
